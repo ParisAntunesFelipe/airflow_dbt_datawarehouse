@@ -1,0 +1,31 @@
+[0m10:58:47.780736 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021A1787EF70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021A198EC9A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021A198EC760>]}
+
+
+============================== 10:58:47.836122 | b2c275c3-d976-46bc-8df7-a53249443bd5 ==============================
+[0m10:58:47.836122 [info ] [MainThread]: Running with dbt=1.9.6
+[0m10:58:47.838606 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\felipe.antunes\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt init', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m10:58:47.991361 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object.. Dictionary: {'dir': WindowsPath('C:/Users/felipe.antunes/.dbt')}
+[0m10:58:47.992363 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m10:59:01.887034 [debug] [MainThread]: Starter project path: C:\Felipe\Jornada_Dados\worshop_airflow_dbt\1_local_setup\.venv\lib\site-packages\dbt\include\starter_project
+[0m10:59:01.970544 [info ] [MainThread]: 
+Your new dbt project "jornada_dw" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m10:59:01.972289 [info ] [MainThread]: Setting up your profile.
+[0m11:01:03.003093 [info ] [MainThread]: Profile jornada_dw written to C:\Users\felipe.antunes\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m11:01:03.007762 [debug] [MainThread]: Command `dbt init` succeeded at 11:01:03.006747 after 135.56 seconds
+[0m11:01:03.010760 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021A1787EF70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021A1997CDC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021A18371250>]}
+[0m11:01:03.012761 [debug] [MainThread]: Flushing usage events
+[0m11:01:03.995569 [debug] [MainThread]: An error was encountered while trying to flush usage events
